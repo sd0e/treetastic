@@ -33,4 +33,4 @@ def objectDetection(imageLocation):
 
 # objectDetection("C:/Users/sebas/Downloads/MVIMG_20230317_213244.jpg")
 # objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg")
-# objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121634029.jpg")
+objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121830025.jpg")
