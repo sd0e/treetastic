@@ -25,3 +25,6 @@ site/yarn-error.log*
 # model
 model/.ipynb_checkpoints
 .DS_Store
+
+model/runs
+model/yolov5x6.pt
