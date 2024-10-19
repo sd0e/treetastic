@@ -33,3 +33,4 @@ model/__pycache__/trees.cpython-312.pyc
 model/__pycache__/nearbyPollution.cpython-312.pyc
 model/__pycache__/extractGeolocation.cpython-312.pyc
 model/__pycache__/extractGeolocation.cpython-312.pyc
+model/yolov5s.pt
