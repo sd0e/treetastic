@@ -29,8 +29,8 @@ def objectDetection(imageLocation):
     # 1  433.50  433.50   517.5  714.5    0.687988     27     tie
     # 2  114.75  195.75  1095.0  708.0    0.624512      0  person
     # 3  986.00  304.00  1028.0  420.0    0.286865     27     tie
-    [results.pandas().xyxy[0], resultsCars.pandas().xyxy[0]]
+    return results.pandas().xyxy[0]
 
 # objectDetection("C:/Users/sebas/Downloads/MVIMG_20230317_213244.jpg")
 # objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg")
-objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121830025.jpg")
+print(objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121830025.jpg"))
