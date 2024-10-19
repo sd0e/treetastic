@@ -29,3 +29,7 @@ model/.ipynb_checkpoints
 model/runs
 model/yolov5x6.pt
 model/yolov5/yolov5s.pt
+model/__pycache__/trees.cpython-312.pyc
+model/__pycache__/nearbyPollution.cpython-312.pyc
+model/__pycache__/extractGeolocation.cpython-312.pyc
+model/__pycache__/extractGeolocation.cpython-312.pyc

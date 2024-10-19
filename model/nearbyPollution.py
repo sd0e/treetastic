@@ -28,6 +28,6 @@ def nearbyPollution(imageLocation):
     else:
         return 0
 
-print(nearbyPollution("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg"))
-print(nearbyPollution("C:/Users/sebas/Downloads/Photos/IMG_20241019_120511313.jpg"))
-print(nearbyPollution("C:/Users/sebas/Downloads/Photos/MVIMG_20230317_213244.jpg"))
+#print(nearbyPollution("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg"))
+#print(nearbyPollution("C:/Users/sebas/Downloads/Photos/IMG_20241019_120511313.jpg"))
+#print(nearbyPollution("C:/Users/sebas/Downloads/Photos/MVIMG_20230317_213244.jpg"))
