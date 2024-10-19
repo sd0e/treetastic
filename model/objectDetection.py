@@ -1,7 +1,9 @@
 import torch
 
 def objectDetection(imageLocation):
-    model = torch.hub.load('ultralytics/yolov5', 'yolov5x6', pretrained=True)
+    # model = torch.hub.load('ultralytics/yolov5', 'yolov5x6', pretrained=False)
+
+    model = torch.hub.load('C:/Users/sebas/Dev/github/treetastic/model/yolov5','custom', path='C:/Users/sebas/Dev/github/treetastic/model/yolov5/last.pt',force_reload=True,source='local')
 
     # Images
     imgs = [imageLocation]  # batch of images
@@ -23,4 +25,5 @@ def objectDetection(imageLocation):
     print(results.pandas().xyxy[0])
 
 # objectDetection("C:/Users/sebas/Downloads/MVIMG_20230317_213244.jpg")
-objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg")
+# objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121612143.jpg")
+# objectDetection("C:/Users/sebas/Downloads/Photos/IMG_20241019_121634029.jpg")

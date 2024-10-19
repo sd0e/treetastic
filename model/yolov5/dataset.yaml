@@ -1,0 +1,8 @@
+train: ../data/images/training/
+val: ../data/images/validation/
+
+# number of classes
+nc: 3
+
+# class names
+names: ['building', 'tree', 'open space']

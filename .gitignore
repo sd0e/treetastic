@@ -28,3 +28,4 @@ model/.ipynb_checkpoints
 
 model/runs
 model/yolov5x6.pt
+model/yolov5/yolov5s.pt
